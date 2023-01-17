@@ -1,0 +1,308 @@
+.points {
+    width: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.prefix {
+    position: absolute;
+    top: 1px;
+    left: 13px;
+}
+
+.resize-none {
+    resize: none;
+}
+
+.hover a {
+    display: none;
+}
+
+.hover:hover a {
+    display: block !important;
+}
+
+.myMarker-green {
+    position: absolute;
+    background: rgba(100, 200, 100, 0.5);
+    z-index: 20
+}
+
+.myMarker-red {
+    position: absolute;
+    background: rgba(200, 100, 100, 0.5);
+    z-index: 20
+}
+
+.myMarker-yellow {
+    position: absolute;
+    background: rgba(200, 193, 100, 0.5);
+    z-index: 20
+}
+
+.setting.nav-link.active::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #212529;
+    height: 1px;
+}
+
+.bottom-line::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 1px;
+    background-color: #212529;
+}
+
+.img-settings {
+    object-fit: cover;
+}
+
+.translate-middle-y-15 {
+    transform: translate(-50%, -15%) !important;
+}
+.nav-link-dark {
+    border: none;
+    background: none;
+    margin-left: 10px;
+}
+
+.nav-link-dark:first-child {
+    margin-left: 0px;
+}
+
+.nav-link-dark.active {
+    background: #212529;
+    color: #fff !important;
+}
+.btn.btn-light:hover {
+    background-color: #f8f9fa;
+}
+
+a {
+    color: rgba(0, 0, 0, 0.9);
+    text-decoration: none;
+}
+
+.dropdown-menu .dropdown-item:active {
+    background-color: #e9ecef;
+    color: #212529;
+}
+
+.w-500 {
+    max-width: 500px;
+}
+
+.user__photo {
+    width: 150px;
+    height: 150px;
+}
+
+.my-section.collapsing {
+    transition: none !important;
+}
+
+.user__photo.plus-size {
+    width: 250px;
+    height: 250px;
+}
+
+.my.nav-tabs .nav-link {
+    border: none;
+}
+.w-140 {
+    width: 120px;
+}
+.w-160 {
+    width: 140px;
+}
+
+.flex-0-1-auto {
+    flex: 0 1 auto;
+}
+
+.flex-1-1-auto {
+    flex: 1 1 auto;
+}
+
+.flex-0-0-105 {
+    flex: 0 0 105px;
+}
+
+.flex-1-0-auto {
+    flex: 1 0 auto;
+}
+
+.ace_editor {
+    height: calc(100vh - 130px) !important;
+    margin-bottom: 0px;
+}
+
+.w-270 {
+    width: 270px;
+}
+
+.user__photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.user-select-none {
+    user-select: none;
+}
+.user__photo-change {
+    user-select: none;
+    opacity: 0;
+    transition: opacity .2s ease-out 0s;
+}
+
+.user__photo:hover .user__photo-change {
+    opacity: .5;
+}
+
+.background-212559 {
+    background-color: #e9ecef
+}
+
+.baton:focus {
+    outline: 0
+}
+
+.fz-16 {
+    font-size: 16px;
+}
+
+.fz-14 {
+    font-size: 14px;
+}
+
+.ov-hidden {
+    overflow: hidden;
+}
+
+.fz-18 {
+    font-size: 18px;
+}
+
+.fz-24 {
+    font-size: 24px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.form-outline label {
+    margin-top: 3px;
+}
+
+.hover-view:hover {
+    background-color: #f8f9fa;
+}
+
+.btn.my:hover {
+    background-color: #f8f9fa !important;
+}
+
+.btn-close.my:hover {
+    background-color: #f8f9fa !important;
+}
+.btn.btn-link.float-start {
+    height: 46px;
+}
+
+.z-index-5 {
+    position: relative;
+    z-index: 5;
+}
+
+.table-wrap.my {
+    max-width: 720px;
+    width: 100%;
+}
+
+.header-profile {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+
+.justify-self-center {
+    justify-self: center;
+}
+
+.arrow-down svg {
+    transform: rotate(180deg);
+    transition: transform .3s;
+}
+
+.arrow-down.collapsed svg {
+    transform: rotate(0deg);
+}
+
+.mw-597 {
+    max-width: 180px !important;
+    width: auto !important;
+}
+
+.ace_editor {
+    height: 400px !important;
+}
+
+@media (max-width: 575px) {
+    .container.my {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .navbar.my.ps-4 {
+        padding-left: 1rem !important;
+    }
+
+    .fz-12-max-400 {
+        font-size: calc(12px + 4 * ((100vw - 320px) / (400 - 320)));
+    }
+
+    .navbar.my.pe-4 {
+        padding-right: 1rem !important;
+    }
+
+    .container.my {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .my-text-13 {
+        font-size: 13.4px;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-md-3.my {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-3.my {
+        flex: 0 0 auto;
+        width: 33.333%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-md-3.my {
+        flex: 0 0 auto;
+        width: 25%;
+    }
+}
