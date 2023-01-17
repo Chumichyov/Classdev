@@ -18,8 +18,8 @@ return new class extends Migration
             $table->string('title');
             $table->string('topic');
             $table->text('description');
-            $table->text('uniqueLink')->unique();
-            $table->text('uniqueCode')->unique();
+            $table->string('uniqueLink', 100)->unique();
+            $table->string('uniqueCode', 20)->unique();
             $table->unsignedBigInteger('leader_id');
             $table->timestamps();
 
