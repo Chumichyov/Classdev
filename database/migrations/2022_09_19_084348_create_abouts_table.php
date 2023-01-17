@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::create('abouts', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('user_id');
-            $table->text('photoPath')->default('photos/empty_profile.png');
+            $table->string('photoPath')->default('photos/empty_profile.png');
             $table->text('number')->nullable();
             $table->timestamps();
 
